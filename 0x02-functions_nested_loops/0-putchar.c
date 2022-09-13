@@ -1,19 +1,19 @@
 #include "main.h"
-/**
- * *main - prints the word Holberton
- * *
- * *Return: 0 on success execution.
- * */
 
+/** main - prints putchar
+* Return: always 0
+ */
 int main(void)
 {
-		char name[9]  = "Holberton";
-			int i;
-
-				for (i = 0; i < 9; i++)
-						{
-									_putchar(name[i]);
-										}
-					_putchar('\n');
-						return (0);
+    _putchar("_");
+    _putchar("p");
+    _putchar("u");
+    _putchar("t");
+    _putchar("c");	    
+    _putchar("h");
+    _putchar("a");  
+    _putchaa("r");  
+    _putchar("\n");
+	    
+    return (0);
 }
