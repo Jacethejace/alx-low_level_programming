@@ -1,47 +1,20 @@
-#include "main.h"
-
-
+#include "main.h"
 
 /**
+ * print_alphabet -  prints the lowercase alphabet
  *
- *  * print_alphabet -  prints the lowercase alphabet
  *
- *   *
- *
- *    *
- *
- *     * Return: void
- *
- *      */
-
-
+ * Return: void
+ */
 
 void print_alphabet(void)
-
 {
+	char c = 'a';
+	int i;
 
-		char c = 'a';
-
-			int i;
-
-
-
-				for (i = 0; i < 26; i++)
-
-						{
-
-									_putchar(c + i);
-
-										}
-
-					_putchar(10);
-
+	for (i = 0; i < 26; i++)
+	{
+		_putchar(c + i);
+	}
+	_putchar(10);
 }
-
-Footer
-
-© 2022 GitHub, Inc.
-
-Footer navigation
-
-Terms
